@@ -40,6 +40,7 @@
 <li><a href="#refresh">4.3.2. Refreshing a page: <code>rf</code></a></li>
 <li><a href="#going-back-to-a-previous-page-code-back-code">4.3.3. Going back to a previous page: <code>back</code></a></li>
 <li><a href="#going-back-to-the-home-page-code-home-code">4.3.4. Going back to the Home Page: <code>home</code></a></li>
+<li><a href="#exiting-the-app-code-exit-code">4.3.5. Exiting the app: <code>exit</code></a></li>
 </ul>
 </li>
 <li><a href="#commands-for-the-home-page">4.4. Commands for the Home Page</a>
@@ -75,7 +76,11 @@
 </ul>
 </li>
 <li><a href="#faq">5. FAQ</a></li>
-<li><a href="#command-summary">6. Command Summary</a></li>
+<li><a href="#command-summary">6. Command Summary</a>
+<ul class="sectlevel2">
+<li><a href="#navigation-summary">6.1. Graphical Summary of Navigation Commands</a></li>
+</ul>
+</li>
 <li><a href="#glossary">7. Glossary</a></li>
 </ul>
 </div>
@@ -90,9 +95,9 @@ how you can use and navigate through Volant&#8217;s features to help you with yo
 <div class="paragraph">
 <p>Volant is a travel companion application for solo travellers for who <strong>prefer to use a desktop app to manage their travels</strong>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/Ui.png" alt="Ui" width="790">
+<img src="images/Ui.png" alt="Ui">
 </div>
 <div class="title">Figure 1. Home page of Volant</div>
 </div>
@@ -179,6 +184,11 @@ Interested? Wait no further, jump to <a href="#quick-start">Section 2, &#8220;Qu
 <code>TRIP PAGE</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This markdown notation highlights commands and terminology specific to the use of Volant.</p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>HOME</code>, <code>JOURNAL</code><br>
+<code>ITINERARY</code>, <code>TRIP</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">This markdown notation highlights different features that Volant has to offer.</p></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -227,7 +237,7 @@ e.g. Typing <strong><code>help</code></strong> and pressing <kbd>Enter</kbd> wil
 <div class="sectionbody">
 <div class="paragraph">
 <p>This section describes the various features available in Volant.
-These include front-end features that you can interact with, such as the Trip Page, as well as back-end features such as the auto-saving of data.</p>
+These include front-end features that you can interact with, such as the <code>TRIP</code> Page, as well as back-end features such as the auto-saving of data.</p>
 </div>
 <div class="sect2">
 <h3 id="trips"><a class="link" href="#trips">3.1. Trips</a></h3>
@@ -250,7 +260,7 @@ associated with your <code>TRIP</code>!</p>
 <p>You can view all your past and upcoming trips at one glance on the <code>HOME</code> Page.</p>
 </div>
 <div class="paragraph">
-<p>Your trip list is neatly organised into two sections: your upcoming trips and your past trips.</p>
+<p>Your <code>TRIP</code> list is neatly organised into two sections: your upcoming trips and your past trips.</p>
 </div>
 </div>
 <div class="sect2">
@@ -279,9 +289,9 @@ the directory you have stored in Volant JAR file in. This folder will store all 
 <div class="paragraph">
 <p>The data folder also contains a file, <code>volant.json</code> that stores your trip list and their details such as the <code>TRIP_NAME</code>, <code>LOCATION</code> and date range of all your trips</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/data-storage.png" alt="data storage" width="300">
+<img src="images/user-guide/data-storage.png" alt="data storage">
 </div>
 <div class="title">Figure 2. Simple diagram of data storage in Volant</div>
 </div>
@@ -324,9 +334,9 @@ Any changes in data that you make, will automatically be saved upon every comman
 <div class="paragraph">
 <p>This section covers the different components of a page in Volant and teaches you on how to utilise Volant&#8217;s GUI.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/ui-components.png" alt="ui components" width="600">
+<img src="images/user-guide/ui-components.png" alt="ui components">
 </div>
 <div class="title">Figure 3. The different components of a page in Volant</div>
 </div>
@@ -363,7 +373,7 @@ The status bar shows you the path of where your data is saved when you are using
 <p>This section covers the different pages in Volant.</p>
 </div>
 <div class="paragraph">
-<p>Volant consists of 4 core components: Home Page, Trip, Itinerary and Journal.
+<p>Volant consists of 4 core components: <code>HOME</code> Page, <code>TRIP</code>, <code>ITINERARY</code> and <code>JOURNAL</code>.
 Commands you enter will produce a different outcome depending on which page you are on.
 Additionally, there are a number of commands that are universal, and will work on every page.</p>
 </div>
@@ -382,50 +392,50 @@ Additionally, there are a number of commands that are universal, and will work o
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>HOME</code> page</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="imageblock">
+<td class="tableblock halign-left valign-top"><div><div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-page.png" alt="home page" width="300">
+<img src="images/user-guide/home-page.png" alt="home page">
 </div>
 <div class="title">Figure 4. <code>HOME</code> page</div>
 </div>
 <div class="paragraph">
-<p>Volant&#8217;s Home page, featuring the entire list of trips in Volant, sorted in upcoming and past <code>TRIP</code> s.</p>
+<p>Volant&#8217;s <code>HOME</code> page, featuring the entire list of trips in Volant, sorted in upcoming and past <code>TRIP</code> s.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>TRIP</code> page</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="imageblock">
+<td class="tableblock halign-left valign-top"><div><div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/trip-page.png" alt="trip page" width="300">
+<img src="images/user-guide/trip-page.png" alt="trip page">
 </div>
 <div class="title">Figure 5. <code>TRIP</code> page</div>
 </div>
 <div class="paragraph">
-<p>A page featuring the details of a specific trip, including the <code>TRIP</code> 's <code>ITINERARY</code> and <code>JOURNAL</code>.</p>
+<p>A page featuring the details of a specific <code>TRIP</code>, including the <code>TRIP</code> 's <code>ITINERARY</code> and <code>JOURNAL</code>.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>JOURNAL</code> page</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="imageblock">
+<td class="tableblock halign-left valign-top"><div><div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-page.png" alt="journal page" width="300">
+<img src="images/user-guide/journal-page.png" alt="journal page">
 </div>
 <div class="title">Figure 6. <code>JOURNAL</code> page</div>
 </div>
 <div class="paragraph">
-<p>A page displaying the <code>JOURNAL</code> of a specific trip.</p>
+<p>A page displaying the <code>JOURNAL</code> of a specific <code>TRIP</code>.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>ITINERARY</code> page</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="imageblock">
+<td class="tableblock halign-left valign-top"><div><div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-page.png" alt="itinerary page" width="300">
+<img src="images/user-guide/itinerary-page.png" alt="itinerary page">
 </div>
 <div class="title">Figure 7. <code>ITINERARY</code> page</div>
 </div>
 <div class="paragraph">
-<p>A page displaying the <code>ITINERARY</code> of a specific trip.</p>
+<p>A page displaying the <code>ITINERARY</code> of a specific <code>TRIP</code>.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -507,9 +517,9 @@ You can also execute this command by using the <kbd>F1</kbd> key on your keyboar
 <div class="paragraph">
 <p>A separate help window will appear with details on the available commands for the current page you are on, and their usage.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/helpwindow.png" alt="helpwindow" width="600">
+<img src="images/user-guide/helpwindow.png" alt="helpwindow">
 </div>
 <div class="title">Figure 8. Help window</div>
 </div>
@@ -555,18 +565,18 @@ You can also execute this command by using the <kbd>F5</kbd> key on your keyboar
 <p>For example, after using the <code>find</code> command on the <code>HOME</code> page (See <a href="#home-find">Section 4.4.5, &#8220;Finding a trip in the list: <code>find</code>&#8221;</a>), the <code>HOME</code> page will display the results of the <code>find</code> command.
 To return the <code>HOME</code> page to its original state (listing all trips), you can use the <code>rf</code> command.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/refresh-command-before.png" alt="refresh command before" width="300">
+<img src="images/user-guide/refresh-command-before.png" alt="refresh command before">
 </div>
 <div class="title">Figure 9. Result of <code>find</code> command</div>
 </div>
 <div class="paragraph">
 <p>1) After you have used the <code>find</code> command on the <code>HOME</code> page, only the results of the command will be displayed.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/refresh-command-after.png" alt="refresh command after" width="300">
+<img src="images/user-guide/refresh-command-after.png" alt="refresh command after">
 </div>
 <div class="title">Figure 10. Result of <code>refresh</code> command</div>
 </div>
@@ -603,18 +613,18 @@ depending on which page you are currently on.</p>
 <div class="paragraph">
 <p>For example, if you are in a <code>TRIP</code> page, using the <code>back</code> command will navigate you to the <code>TRIP</code> page associated with the <code>ITINERARY</code>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/back-command-before.png" alt="back command before" width="300">
+<img src="images/user-guide/back-command-before.png" alt="back command before">
 </div>
 <div class="title">Figure 11. <code>back</code> command on <code>ITINERARY</code> page</div>
 </div>
 <div class="paragraph">
 <p>You are on the <code>ITINERARY</code> page of a specific <code>TRIP</code></p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/back-command-after.png" alt="back command after" width="300">
+<img src="images/user-guide/back-command-after.png" alt="back command after">
 </div>
 <div class="title">Figure 12. Result of <code>back</code> command</div>
 </div>
@@ -707,23 +717,62 @@ This command does not work while you are on the <code>HOME</code> page.
 <p>For example, if you would like to return to the <code>HOME</code> page of Volant from an <code>ITINERARY</code> page, using the <code>home</code>
 command will conveniently move you directly to the <code>HOME</code> page.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/back-command-before.png" alt="back command before" width="300">
+<img src="images/user-guide/back-command-before.png" alt="back command before">
 </div>
 <div class="title">Figure 13. <code>home</code> command on <code>ITINERARY</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You are on the <code>ITINERARY</code> page of a specific <code>TRIP</code>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-page.png" alt="home page" width="300">
+<img src="images/user-guide/home-page.png" alt="home page">
 </div>
 <div class="title">Figure 14. Result of <code>home</code> command</div>
 </div>
 <div class="paragraph">
 <p>2) After using the <code>home</code> command, you will be moved to the <code>HOME</code> page.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="exiting-the-app-code-exit-code"><a class="link" href="#exiting-the-app-code-exit-code">4.3.5. Exiting the app: <code>exit</code></a></h4>
+<div class="paragraph">
+<p>If you want to quickly exit the Volant app from any page, this command will close the app.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<caption class="title">Usage</caption>
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 83.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Syntax</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>exit</code></p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Example</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>exit</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This command is equivalent to clicking the "Close Window" button.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>Expected Outcome</strong>
+The app will close.</p>
 </div>
 </div>
 </div>
@@ -732,9 +781,9 @@ command will conveniently move you directly to the <code>HOME</code> page.</p>
 <div class="paragraph">
 <p>The <code>HOME</code> page consists of a list of all your upcoming and past trips.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-components.png" alt="home components" width="600">
+<img src="images/user-guide/home-components.png" alt="home components">
 </div>
 <div class="title">Figure 15. The different components displayed in the Home page.</div>
 </div>
@@ -781,18 +830,18 @@ command will conveniently move you directly to the <code>HOME</code> page.</p>
 <div class="paragraph">
 <p>For example, you are on the <code>HOME</code> page and would like to navigate to the <code>TRIP</code> page of the trip, <em>Winter Break</em>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-goto-before.png" alt="home goto before" width="300">
+<img src="images/user-guide/home-goto-before.png" alt="home goto before">
 </div>
 <div class="title">Figure 16. <code>goto</code> command on <code>HOME</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You are on the <code>HOME</code> page and you want to navigate to the <code>TRIP</code> page of the 3rd <code>TRIP</code>, <em>Winter Break</em>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-goto-after.png" alt="home goto after" width="300">
+<img src="images/user-guide/home-goto-after.png" alt="home goto after">
 </div>
 <div class="title">Figure 17. Result of <code>goto</code> command</div>
 </div>
@@ -865,18 +914,18 @@ and date range of the trip being from <strong>1st February 2020</strong> to <str
 <p>Entering the command <code>add n/Graduation Trip l/Bangkok d/01-06-2020 to 05-06-2020</code> while on <code>HOME</code> page will add the
 <code>TRIP</code> to your trip list.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-add-before.png" alt="home add before" width="300">
+<img src="images/user-guide/home-add-before.png" alt="home add before">
 </div>
 <div class="title">Figure 18. <code>add</code> command on <code>HOME</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You would like to add a <code>TRIP</code> to your trip list and enter the <code>add</code> command including the specific metadata of the <code>TRIP</code>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-add-after.png" alt="home add after" width="600">
+<img src="images/user-guide/home-add-after.png" alt="home add after">
 </div>
 <div class="title">Figure 19. Result of <code>add</code> command</div>
 </div>
@@ -954,18 +1003,18 @@ and date range of the trip being from <strong>1st February 2020</strong> to <str
 <div class="paragraph">
 <p>Entering the command <code>delete 2</code>, will delete the second <code>TRIP</code> from your trip list.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-delete-before.png" alt="home delete before" width="600">
+<img src="images/user-guide/home-delete-before.png" alt="home delete before">
 </div>
 <div class="title">Figure 20. <code>delete</code> command on <code>HOME</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You want to delete the second trip on your trip list, "Graduation Trip".</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-delete-after.png" alt="home delete after" width="300">
+<img src="images/user-guide/home-delete-after.png" alt="home delete after">
 </div>
 <div class="title">Figure 21. Result of <code>delete</code> command</div>
 </div>
@@ -1058,18 +1107,18 @@ to "Frankfurt".</p>
 <p>Entering the command <code>edit 1 n/Family Trip 2020 l/Frankfurt</code> will edit the specific parameters <code>TRIP_NAME</code> and <code>LOCATION</code>,
 and these changes will be reflected on Volant&#8217;s GUI.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-edit-before.png" alt="home edit before" width="600">
+<img src="images/user-guide/home-edit-before.png" alt="home edit before">
 </div>
 <div class="title">Figure 22. <code>edit</code> command on <code>HOME</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You want to edit the <code>TRIP_NAME</code> and <code>LOCATION</code> of the first <code>TRIP</code> in your trip list.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-edit-after.png" alt="home edit after" width="600">
+<img src="images/user-guide/home-edit-after.png" alt="home edit after">
 </div>
 <div class="title">Figure 23. Result of <code>edit</code> command</div>
 </div>
@@ -1128,18 +1177,18 @@ and these changes will be reflected on Volant&#8217;s GUI.</p>
 <p>For example, you would like search for a trip on the trip list with the <code>KEYWORD</code>, "fuji" in the <code>TRIP_NAME</code>.
 Volant will locate all <code>TRIP</code> s with the <code>KEYWORD</code>, "fuji", and display all matching results.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-find-before.png" alt="home find before" width="300">
+<img src="images/user-guide/home-find-before.png" alt="home find before">
 </div>
 <div class="title">Figure 24. <code>find</code> command on <code>HOME</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You want to search for all <code>TRIP</code> s with names containing the <code>KEYWORD</code>, "fuji".</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/home-find-after.png" alt="home find after" width="300">
+<img src="images/user-guide/home-find-after.png" alt="home find after">
 </div>
 <div class="title">Figure 25. Result of <code>find</code> command</div>
 </div>
@@ -1242,18 +1291,18 @@ From this page, you can navigate to the <code>ITINERARY</code> and <code>JOURNAL
 <p>For example, you are on the <code>TRIP</code> page and would like to view your itinerary for that <code>TRIP</code>. After using the
 <code>goto</code> command, Volant will navigate you to the <code>TRIP</code> 's  <code>ITINERARY</code> page.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/trip-page.png" alt="trip page" width="300">
+<img src="images/user-guide/trip-goto-before.png" alt="trip goto before">
 </div>
 <div class="title">Figure 26. <code>goto</code> command on <code>TRIP</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You are on the <code>TRIP</code> page of the trip "Family Trip".</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/trip-goto-after.png" alt="trip goto after" width="300">
+<img src="images/user-guide/trip-goto-after.png" alt="trip goto after">
 </div>
 <div class="title">Figure 27. Result of <code>goto</code> command</div>
 </div>
@@ -1268,9 +1317,9 @@ From this page, you can navigate to the <code>ITINERARY</code> and <code>JOURNAL
 <p>The <code>ITINERARY</code> page of a specific trip consists of a list of all the planned activities for a specific trip.
 Here, you can manipulate the list of <code>JOURNAL</code> entries, as well as navigate to other pages.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-components.png" alt="itinerary components" width="600">
+<img src="images/user-guide/itinerary-components.png" alt="itinerary components">
 </div>
 <div class="title">Figure 28. <code>ITINERARY</code> page</div>
 </div>
@@ -1332,18 +1381,18 @@ Here, you can manipulate the list of <code>JOURNAL</code> entries, as well as na
 <div class="paragraph">
 <p>A new activity titled <strong>Flight to Singapore</strong> at <strong>Berlin Brandenburg Airport</strong> at <strong>07:00 AM</strong> on <strong>24th December 2020</strong> is added to the <code>TRIP</code> 's <code>ITINERARY</code>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-add-before.png" alt="itinerary add before" width="300">
+<img src="images/user-guide/itinerary-add-before.png" alt="itinerary add before">
 </div>
 <div class="title">Figure 29. <code>add</code> command on <code>ITINERARY</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You would like to add a new <code>ACTIVITY</code> into your <code>ITINERARY</code> with the specified metadata.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-add-after.png" alt="itinerary add after" width="600">
+<img src="images/user-guide/itinerary-add-after.png" alt="itinerary add after">
 </div>
 <div class="title">Figure 30. Result of <code>add</code> command</div>
 </div>
@@ -1415,18 +1464,18 @@ Here, you can manipulate the list of <code>JOURNAL</code> entries, as well as na
 <div class="paragraph">
 <p>The fourth <code>ACTIVITY</code> on the <code>ITINERARY</code> is deleted.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-delete-before.png" alt="itinerary delete before" width="600">
+<img src="images/user-guide/itinerary-delete-before.png" alt="itinerary delete before">
 </div>
 <div class="title">Figure 31. <code>delete</code> command on <code>ITINERARY</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You wish to delete the <code>ACTIVITY</code> at <code>INDEX</code> 4 from your <code>ITINERARY</code>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-delete-after.png" alt="itinerary delete after" width="300">
+<img src="images/user-guide/itinerary-delete-after.png" alt="itinerary delete after">
 </div>
 <div class="title">Figure 32. Result of <code>delete</code> command</div>
 </div>
@@ -1509,18 +1558,18 @@ Here, you can manipulate the list of <code>JOURNAL</code> entries, as well as na
 <div class="paragraph">
 <p>The second <code>ACTIVITY</code> in the <code>ITINERARY</code> has been edited to reflect the new location <strong>Starbucks</strong> and the new time <strong>10:00AM</strong>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-edit-before.png" alt="itinerary edit before" width="600">
+<img src="images/user-guide/itinerary-edit-before.png" alt="itinerary edit before">
 </div>
 <div class="title">Figure 33. <code>edit</code> command on <code>ITINERARY</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You wish to <code>edit</code> the <code>LOCATION</code> and <code>TIME</code> of the <code>ACTIVITY</code> at <code>INDEX</code> 2.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-edit-after.png" alt="itinerary edit after" width="600">
+<img src="images/user-guide/itinerary-edit-after.png" alt="itinerary edit after">
 </div>
 <div class="title">Figure 34. Result of <code>edit</code> command</div>
 </div>
@@ -1578,18 +1627,18 @@ updated accordingly.</p>
 <div class="paragraph">
 <p>All activities whose name consists of the keyword "ferry" are displayed.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-find-before.png" alt="itinerary find before" width="300">
+<img src="images/user-guide/itinerary-find-before.png" alt="itinerary find before">
 </div>
 <div class="title">Figure 35. <code>find</code> command on <code>ITINERARY</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You wish to <code>find</code> all activities that include the keyword "ferry".</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/itinerary-find-after.png" alt="itinerary find after" width="300">
+<img src="images/user-guide/itinerary-find-after.png" alt="itinerary find after">
 </div>
 <div class="title">Figure 36. Result of <code>find</code> command</div>
 </div>
@@ -1604,9 +1653,9 @@ updated accordingly.</p>
 <p>The <code>JOURNAL</code> page of a specific <code>TRIP</code> consists of a list of all the journal entries associated with the <code>TRIP</code>.
 Here, you can manipulate the list of <code>JOURNAL</code> entries, as well as navigate to other pages.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-components.png" alt="journal components" width="600">
+<img src="images/user-guide/journal-components.png" alt="journal components">
 </div>
 <div class="title">Figure 37. <code>JOURNAL</code> page</div>
 </div>
@@ -1721,18 +1770,18 @@ Here, you can manipulate the list of <code>JOURNAL</code> entries, as well as na
 <div class="paragraph">
 <p>Adds a new journal entry to the entry list with the specified content, date, time, location and feeling fields.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-add-before.png" alt="journal add before" width="300">
+<img src="images/user-guide/journal-add-before.png" alt="journal add before">
 </div>
 <div class="title">Figure 38. <code>add</code> command in <code>JOURNAL</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You want to add an <code>ENTRY</code> to the <code>JOURNAL</code> with the specified metadata.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-add-after.png" alt="journal add after" width="300">
+<img src="images/user-guide/journal-add-after.png" alt="journal add after">
 </div>
 <div class="title">Figure 39. Result of <code>add</code> command</div>
 </div>
@@ -1804,18 +1853,18 @@ Here, you can manipulate the list of <code>JOURNAL</code> entries, as well as na
 <div class="paragraph">
 <p>The <code>ENTRY</code> at the specified <code>INDEX</code> will be deleted.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-delete-before.png" alt="journal delete before" width="600">
+<img src="images/user-guide/journal-delete-before.png" alt="journal delete before">
 </div>
 <div class="title">Figure 40. <code>delete</code> command in <code>JOURNAL</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You wish to delete the <code>ENTRY</code> at <code>INDEX</code> 1.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-delete-after.png" alt="journal delete after" width="300">
+<img src="images/user-guide/journal-delete-after.png" alt="journal delete after">
 </div>
 <div class="title">Figure 41. Result of <code>delete</code> command</div>
 </div>
@@ -1871,18 +1920,18 @@ a new weather, this command allows you to edit the entry at a specified <code>IN
 <div class="paragraph">
 <p>Changes <code>WEATHER</code> of the second <code>ENTRY</code> to <strong>SNOWY</strong>.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-edit-before.png" alt="journal edit before" width="600">
+<img src="images/user-guide/journal-edit-before.png" alt="journal edit before">
 </div>
 <div class="title">Figure 42. <code>edit</code> command on <code>JOURNAL</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You wish to <code>edit</code> the weather field of the <code>ENTRY</code> at <code>INDEX</code> 2.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-edit-after.png" alt="journal edit after" width="600">
+<img src="images/user-guide/journal-edit-after.png" alt="journal edit after">
 </div>
 <div class="title">Figure 43. Result of <code>edit</code> command</div>
 </div>
@@ -1893,7 +1942,7 @@ a new weather, this command allows you to edit the entry at a specified <code>IN
 <div class="sect3">
 <h4 id="sorting-a-list-of-current-journal-entries-code-sort-code"><a class="link" href="#sorting-a-list-of-current-journal-entries-code-sort-code">4.7.4. Sorting a list of current journal entries: <code>sort</code></a></h4>
 <div class="paragraph">
-<p>If you would like arrange your journal entries in a certain order, this command sorts the list of entries in a specified order.</p>
+<p>If you would like to arrange your journal entries in a certain order, this command sorts the list of entries in a specified order.</p>
 </div>
 <table class="tableblock frame-all grid-all spread">
 <caption class="title">Usage</caption>
@@ -1955,18 +2004,18 @@ a new weather, this command allows you to edit the entry at a specified <code>IN
 <div class="paragraph">
 <p>Sorts the list of <code>JOURNAL</code> entries by oldest to newest.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-sort-oldest-before.png" alt="journal sort oldest before" width="300">
+<img src="images/user-guide/journal-sort-oldest-before.png" alt="journal sort oldest before">
 </div>
 <div class="title">Figure 44. <code>sort</code> command on <code>JOURNAL</code> page</div>
 </div>
 <div class="paragraph">
 <p>1) You wish to sort the entries by oldest first.</p>
 </div>
-<div class="imageblock">
+<div class="imageblock" style="text-align: center">
 <div class="content">
-<img src="images/user-guide/journal-sort-oldest-after.png" alt="journal sort oldest after" width="300">
+<img src="images/user-guide/journal-sort-oldest-after.png" alt="journal sort oldest after">
 </div>
 <div class="title">Figure 45. Result of <code>sort</code> command</div>
 </div>
@@ -2038,11 +2087,28 @@ Use this list as a quick and convenient reference.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Format</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">Home page</p></td>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">Universal commands</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Help</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>help</code></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Refresh</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>rf</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navigate to home page</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>home</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navigate to previous page</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>back</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Exit app</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>exit</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">Home page</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navigate to trip</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>goto INDEX</code></p></td>
 </tr>
@@ -2057,6 +2123,10 @@ Use this list as a quick and convenient reference.</p>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Edit trip</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>edit INDEX [n/TRIP_NAME]  [l/LOCATION] [d/TRIP_START_DATE to TRIP_END_DATE]</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Find trip</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>find KEYWORD</code></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Trip page</p></td>
@@ -2099,14 +2169,26 @@ Use this list as a quick and convenient reference.</p>
 </tr>
 </tbody>
 </table>
+<div class="sect2">
+<h3 id="navigation-summary"><a class="link" href="#navigation-summary">6.1. Graphical Summary of Navigation Commands</a></h3>
+<div class="paragraph">
+<p>Below is a useful "cheat sheet" of all navigation commands used to navigate through the pages in Volant.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/navigation-cheatsheet.png" alt="navigation cheatsheet" width="800">
+</div>
+<div class="title">Figure 46. Graphical summary of navigation commands in Volant</div>
+</div>
 <div style="page-break-after: always;"></div>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="glossary"><a class="link" href="#glossary">7. Glossary</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This section will cover and explain certain technical/Volant specific terms that we have used in this user guide.</p>
+<p>This section will cover and explain certain technical/Volant-specific terms that we have used in this user guide.</p>
 </div>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -2132,7 +2214,11 @@ Use this list as a quick and convenient reference.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Metadata</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Details associated with  an entity. For example, metadata of a <code>TRIP</code> include the <code>TRIP</code> 's, <code>TRIP_NAME</code>, <code>LOCATION</code>, <code>TRIP_START_DATE</code>, <code>TRIP_END_DATE</code></p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Root Page</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The first page that the Volant displays when opened. In Volant, this is the <code>HOME</code> Page.</p></td>
+</tr>
 </tbody>
 </table>
 </div>
-</div></div><div id="footer"><div class="container"><div id="footer-text">Last updated 2020-04-12 04:26:49 UTC</div></div></div></body></html>
+</div></div><div id="footer"><div class="container"><div id="footer-text">Last updated 2020-04-13 09:28:51 UTC</div></div></div></body></html>
